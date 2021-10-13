@@ -17,7 +17,6 @@
 </p>
 
 # Leaderboard# Leaderboard
-![image]()
 
 
 In this Project Iam creating Leaderboard to save scores of players 
@@ -51,13 +50,20 @@ An updated web browser
 
 ## Authors
 
+👤 **Iyunda Ismael Antonio**
+
+- GitHub: [@ixboy](https://github.com/ixboy)
+- Twitter: [@ismaelixboy](https://twitter.com/ismaelixboy)
+- LinkedIn: [ismael-antonio](https://www.linkedin.com/in/ismaelantonio/)
+
+
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ixboy/Leaderboard/issues).
 
 ## Show your support
 
