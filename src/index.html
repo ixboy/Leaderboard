@@ -14,21 +14,17 @@
         <section class="results">
             <div class="list-header">
                 <h2>Resent Scores</h2>
-                <button class="btn btn-light" type="button">Refresh</button>
+                <button id="refresh" type="button">Refresh</button>
             </div>
-            <ul class="ul">
-                <li class="list-item">name: 20</li>
-                <li class="list-item">name: 20</li>
-                <li class="list-item">name: 20</li>
-                <li class="list-item">name: 20</li>
-                <li class="list-item">name: 20</li>
+            <ul id="ul">
+
             </ul>
         </section>
         <form class="form">
             <h2 class="score">Add Your Scores:</h2>
-            <input type="text" id="username" name="username" placeholder="Name">
-            <input type="text" id="score" placeholder="Score">
-            <input type="submit" value="Submit">
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <input type="number" name="score" id="score" min="0" placeholder="Your score" required>
+            <input type="submit" id="submit" value="Submit">
         </form>
       </div>
     </body>
