@@ -29,22 +29,22 @@ const getData = async () => {
   return data;
 };
 
-async function pushData(user, score) {
+const pushData = async (user, score) => {
   await fetch(url, {
     method: 'POST',
     body: JSON.stringify({ user, score }),
     headers: { 'Content-type': 'application/json; charset=UTF-8' },
   });
-}
+};
 
-function getValues(e) {
+const getValues = (e) => {
   e.preventDefault();
   const user = e.target.parentElement.children[1].value;
   const score = e.target.parentElement.children[2].value;
   pushData(user, score);
   e.target.parentElement.children[1].value = '';
   e.target.parentElement.children[2].value = '';
-}
+};
 
 refresh.addEventListener('click', getData);
 submit.addEventListener('click', getValues);
