@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 const gameId = 'P2BvfbmisuujDRLJyYxc';
 const list = document.getElementById('ul');
 const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`;
