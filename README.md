@@ -23,7 +23,7 @@
 </p>
 
 
-In this Project Iam creating Leaderboard to save scores of players 
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 
@@ -33,7 +33,13 @@ In this Project Iam creating Leaderboard to save scores of players
 - Webpack
 - Yarn
 
+## Live Demo
+
+Check the [Live Version](https://ixboy.github.io/Leaderboard/) of the website
+
+
 ## Getting Started
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow the steps below:
 
 - Run git clone on this project at the desired directory:
    ```
