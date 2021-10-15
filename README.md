@@ -18,6 +18,10 @@
 
 # Leaderboard# Leaderboard
 
+<p align="center">
+    <img alt="Screenshot" src="./src/Screenshot.png" width="500">
+</p>
+
 
 In this Project Iam creating Leaderboard to save scores of players 
 
@@ -25,7 +29,9 @@ In this Project Iam creating Leaderboard to save scores of players
 
 - HTML & CSS
 - Javascript
+- Rest API
 - Webpack
+- Yarn
 
 ## Getting Started
 
@@ -33,8 +39,8 @@ In this Project Iam creating Leaderboard to save scores of players
    ```
    git clone git@github.com:ixboy/Leaderboard.git
    ```
-- Run `npm install` to install the necessary packages to run locally
-- After installing everything, run `npm start` and your default browser will open with the page
+- Run `yarn` to install the necessary packages to run locally
+- After installing everything, run `yarn start` and your default browser will open with the page
 
 ### Prerequisites
 
